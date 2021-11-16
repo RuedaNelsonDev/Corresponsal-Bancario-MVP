@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/drawable/ic_disable.xml" value="0.3828125" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/drawable/ic_enable.xml" value="0.3828125" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/drawable/ic_no_money.xml" value="0.3828125" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/activity_data_correspondent.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/activity_register_client.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/activity_show_created.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/layout_alert_disable.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/layout_alert_disable_status.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/layout_alert_enable.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/layout_alert_no_money.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Nelson Rueda/Documents/Corres MVP/app/src/main/res/layout/row_show_createds.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

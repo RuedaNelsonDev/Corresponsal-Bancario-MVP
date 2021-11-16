@@ -1,0 +1,11 @@
+<vector android:height="28dp" android:viewportHeight="128"
+    android:viewportWidth="128" android:width="28dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/green" android:pathData="m34.785,49.354a24.778,24.778 0,1 0,24.777 24.778,24.806 24.806,0 0,0 -24.777,-24.778zM20.989,90.3a8.154,8.154 0,0 1,8.138 -7.909h11.316a8.153,8.153 0,0 1,8.138 7.909,21.178 21.178,0 0,1 -27.592,0zM51.589,87.142a11.67,11.67 0,0 0,-11.146 -8.252h-11.316a11.671,11.671 0,0 0,-11.142 8.251,21.277 21.277,0 1,1 33.6,0z"/>
+    <path android:fillColor="@color/green" android:pathData="m34.785,57.623a7.592,7.592 0,0 0,-7.585 7.584v2.3a7.585,7.585 0,0 0,15.169 0v-2.3a7.593,7.593 0,0 0,-7.584 -7.584zM38.87,67.506a4.085,4.085 0,0 1,-8.169 0v-2.3a4.085,4.085 0,0 1,8.169 0z"/>
+    <path android:fillColor="@color/green" android:pathData="m126.25,27.628h-38.438v-1.5a8.76,8.76 0,0 0,-8.75 -8.75h-30.125a8.76,8.76 0,0 0,-8.75 8.75v1.5h-38.437a1.75,1.75 0,0 0,-1.75 1.75v79.494a1.75,1.75 0,0 0,1.75 1.75h124.5a1.75,1.75 0,0 0,1.75 -1.75v-79.494a1.75,1.75 0,0 0,-1.75 -1.75zM43.687,26.128a5.256,5.256 0,0 1,5.25 -5.25h30.125a5.256,5.256 0,0 1,5.25 5.25v9.8h-40.625zM124.5,107.122h-121v-75.994h36.687v6.554a1.751,1.751 0,0 0,1.75 1.75h44.125a1.75,1.75 0,0 0,1.75 -1.75v-6.554h36.688z"/>
+    <path android:fillColor="@color/green" android:pathData="m67.125,53.727a1.751,1.751 0,0 0,1.75 1.75h47.367a1.75,1.75 0,0 0,0 -3.5h-47.367a1.75,1.75 0,0 0,-1.75 1.75z"/>
+    <path android:fillColor="@color/green" android:pathData="m68.875,65.679h39.25a1.75,1.75 0,0 0,0 -3.5h-39.25a1.75,1.75 0,0 0,0 3.5z"/>
+    <path android:fillColor="@color/green" android:pathData="m116.242,72.382h-47.367a1.75,1.75 0,0 0,0 3.5h47.367a1.75,1.75 0,1 0,0 -3.5z"/>
+    <path android:fillColor="@color/green" android:pathData="m68.875,86.085h39.25a1.75,1.75 0,0 0,0 -3.5h-39.25a1.75,1.75 0,0 0,0 3.5z"/>
+    <path android:fillColor="@color/green" android:pathData="m116.242,92.787h-47.367a1.75,1.75 0,0 0,0 3.5h47.367a1.75,1.75 0,0 0,0 -3.5z"/>
+</vector>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_black"
+        android:title="Iniciar Sesion"
+        android:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_icons8_edificio_del_banco_100" />
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/tilCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Correo"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/white"
+            app:helperText="Requerido"
+            app:helperTextTextColor="@color/white"
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/green"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietLoginMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="admin@wposs.com"
+                android:background="@drawable/custom_edit_text"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/tilLoginContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Contraseña"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/white"
+            app:helperText="Requerido"
+            app:helperTextTextColor="@color/white"
+            app:startIconDrawable="@drawable/ic_contrasena"
+            app:startIconTint="@color/green"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/green">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="123456"
+                android:background="@drawable/custom_edit_text"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="30dp"
+            android:text="Iniciar Sesión"
+            android:onClick="btnLogin"
+            android:textColor="@color/white"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_black"
+        android:title="Registrar Cliente"
+        android:titleTextColor="@color/white" />
+
+    <include
+        android:id="@+id/dataLayout"
+        layout="@layout/row_data"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_usuario"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="ABCDEFGHIJKLMNÑOPRSTUVWXYZ"
+                        android:inputType="textCapCharacters"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom_edit_text"
+                        android:textSize="15dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientLastName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellido"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_usuario"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientLastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="ABCDEFGHIJKLMNÑOPRSTUVWXYZ"
+                        android:inputType="textCapCharacters"
+                        android:textColor="@color/white"
+                        android:background="@drawable/custom_edit_text"
+                        android:textSize="15dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientIdentification"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cedula"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_cedula"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientIdentification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:inputType="number|phone"
+                        android:background="@drawable/custom_edit_text"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Recuerde que la creación de su cuenta
+tiene un valor de 10000 pesos que se descontara de su saldo inicial!!!"
+                    android:textColor="@color/white" />
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientBalance"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Saldo"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="clear_text"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_saldo"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientBalance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:inputType="number|phone"
+                        android:background="@drawable/custom_edit_text"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientPin"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Pin"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_contrasena"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientPin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:inputType="numberPassword"
+                        android:maxLength="4"
+                        android:background="@drawable/custom_edit_text"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:id="@+id/tilClientConfPin"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Confirmar Pin"
+                    android:textColorHint="@color/white"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/green"
+                    app:helperText="Requerido"
+                    app:helperTextTextColor="@color/white"
+                    app:hintTextColor="@color/white"
+                    app:startIconDrawable="@drawable/ic_contrasena"
+                    app:startIconTint="@color/green">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/tietClientConfPin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789"
+                        android:inputType="numberPassword"
+                        android:maxLength="4"
+                        android:background="@drawable/custom_edit_text"
+                        android:textColor="@color/white" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnAdminClientRegis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button"
+                    android:text="Registrar Cliente"
+                    android:onClick="btnAdminClientRegis"
+                    android:textColor="@color/white"
+                    android:visibility="gone"/>
+                <Button
+                    android:id="@+id/btnCorresClientRegis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/custom_button"
+                    android:text="Registrar Cliente"
+                    android:onClick="btnCorresClientRegis"
+                    android:textColor="@color/white"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolCorresCreateds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_black"
+        android:title="Corresponsales Creados"
+        android:titleTextColor="@color/white"
+        android:visibility="gone"/>
+    <Toolbar
+        android:id="@+id/toolClientsCreateds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green_black"
+        android:title="Clientes Creados"
+        android:titleTextColor="@color/white"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/dataLayout"
+        layout="@layout/row_data" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvShowCreateds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
